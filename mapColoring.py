@@ -51,9 +51,8 @@ if __name__ == "__main__":
     for index in range(len(countries)):
         mapColoring(index, data, areaColors)
     plot_choropleth(areaColors)
-    # coloring test
     colormap_test = {"Argentina": "blue", "Bolivia": "red", "Brazil": "yellow", "Chile": "yellow", "Colombia": "red",
                      "Ecuador": "yellow", "Falkland Islands": "yellow", "Guyana": "red", "Paraguay": "green",
                      "Peru": "green", "Suriname": "green", "Uruguay": "red", "Venezuela": "green"}
 
-    # plot_choropleth(colormap=colormap_test)
+ 
